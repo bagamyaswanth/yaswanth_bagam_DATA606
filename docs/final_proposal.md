@@ -8,8 +8,8 @@ Having a prior experience in the banking and financing sector it's a very tediou
 https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
 
 # Two datasets:
-application_record.csv
-credit_record.csv
+- application_record.csv
+- credit_record.csv
 
 # Attributes:
 ## application_record.csv
