@@ -1,3 +1,3 @@
-# Slource Code Folder
+# Source Code Folder
 
-Put your Jupyter Notebooks and Python Scripts here.
+Jupyter Notebooks and Python Scripts here.
