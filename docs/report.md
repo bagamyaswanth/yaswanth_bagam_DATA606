@@ -96,8 +96,74 @@ The project uses two datasets, namely credit_record.csv and application_record.c
   - STATUS	: Status
 
 
-## Merged Dataset based on App Name:
-The merged dataset provides a comprehensive view of all the information gathered from the two datasets.
+## Merged Dataset based on Customer ID:
+The combined dataset offers a thorough overview of all the data compiled from the two datasets.
 ![Merged_dataset_1](https://github.com/bagamyaswanth/yaswanth_bagam_DATA606/blob/main/docs/images/Merged_dataset_1.png)
+![Attributes_merged_dataset](https://github.com/bagamyaswanth/yaswanth_bagam_DATA606/blob/main/docs/images/Attributes_merged_dataset.png)
 
+## Category Distribution:
+The category Distribution provides an insight into the amount of income per type and income category with respective car.
+![name_income_type_wrt_amount_income](https://github.com/bagamyaswanth/yaswanth_bagam_DATA606/blob/main/docs/images/name_income_type_wrt_amount_income.png)
+![name_income_type_wrt_car](https://github.com/bagamyaswanth/yaswanth_bagam_DATA606/blob/main/docs/images/name_income_type_wrt_car.png)
 
+## Income type and Age Distribution category:
+This section presents a comparison of the Income type and Age Distribution in each category.
+![name_income_type](https://github.com/bagamyaswanth/yaswanth_bagam_DATA606/blob/main/docs/images/name_income_type.png)
+![age_histogram](https://github.com/bagamyaswanth/yaswanth_bagam_DATA606/blob/main/docs/images/age_histogram.png)
+
+## Attribute Correlations:
+The attribute correlations provide a correlation between the different attributes such as employee from years, age , and net income.
+![correlation_heatmap](https://github.com/bagamyaswanth/yaswanth_bagam_DATA606/blob/main/docs/images/correlation_heatmap.png)
+
+## Machine Learning Algorithm Used:
+This project uses KNN classifier, KNN is a simple, non-parametric algorithm for classification. It identifies the k nearest training data points based on a distance metric and assigns the majority class label to the new observation. It works well for large datasets and nonlinear decision boundaries and is often used as a baseline for complex models.
+
+The KNN classifier is used for credit card prediction by training the model on a dataset of past credit card applications and their outcomes, and then using the model to predict whether a new credit card application is likely to be approved or rejected.
+
+  ### Advantages:
+  - Simple and easy to implement
+  - Non-parametric and versatile
+  - Robust to noisy data
+  - High accuracy with sufficient data
+  - No training phase required
+
+## Machine Learning Classification Report:
+The machine learing classification report provides insights about precision, recall and f1-score.
+![ML_Classification_report](https://github.com/bagamyaswanth/yaswanth_bagam_DATA606/blob/main/docs/images/ML_Classification_report.png)
+
+## Feature Importance:
+Decision trees are commonly used to calculate feature importance. The importance of a feature is calculated based on how often it is used to split the data and the reduction in impurity achieved by each split.
+![Feature_importance](https://github.com/bagamyaswanth/yaswanth_bagam_DATA606/blob/main/docs/images/Feature_importance.png)
+![Feature_Selection_Importance](https://github.com/bagamyaswanth/yaswanth_bagam_DATA606/blob/main/docs/images/Feature_Selection_Importance.png)
+
+## User Interface:
+The user interface allows users to input customer details for analysis.
+![User_interface](https://github.com/bagamyaswanth/yaswanth_bagam_DATA606/blob/main/docs/images/User_interface.png)
+![User_interface_2](https://github.com/bagamyaswanth/yaswanth_bagam_DATA606/blob/main/docs/images/User_interface_2.png)
+
+## Outcomes:
+Based on the given user inputs like education, degree, family status ,assets, income value and experience the algorithms determines whether to approve or reject the credit card.
+ ### Challenges:
+  - Understanding the data
+  - Data pre-processing
+  - Feature selection
+  - Modelling, finding the best model to improve the accuracy of the prediction.
+  - hyperparameter tuning
+  - Data Quality
+
+## Conclusion:
+In summary, a credit card approval machine learning project using KNN classifier can effectively predict credit card approval or denial. By optimizing the KNN classifier model through feature selection, hyperparameter tuning, and evaluating performance using appropriate metrics, high accuracy can be achieved to assist financial institutions and lenders to make informed decisions and reduce risk of default. However, it is crucial to ensure that the data is representative and unbiased, and that different hyperparameter values are experimented with to find the optimal configuration for the dataset. Overall, a credit card approval machine learning project using KNN classifier has the potential to provide valuable insights for data-driven decision making.
+
+### References:
+- Credit Card Approval Prediction Dataset
+
+  https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
+  
+- M. P. C. Peiris. (2019). Credit Card Approval Prediction by Using Machine Learning. 
+
+  https://dl.ucsc.cmb.ac.lk/jspui/bitstream/123456789/4593/1/2018%20BA%20026.pdf
+
+- Aman Sangal. (2022). Predicting Credit Card Approvals using Machine Learning.
+
+  https://medium.com/@amansangal9/predicting-credit-card-approvals-8409c5280f91 
+  
