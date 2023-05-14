@@ -19,7 +19,7 @@ https://github.com/bagamyaswanth/yaswanth_bagam_DATA606/blob/main/docs/Capstone_
 
 Youtube Link:
 
-
+https://youtu.be/TRsRYWz6jTg
 
 Trained picklefile Link:
 
